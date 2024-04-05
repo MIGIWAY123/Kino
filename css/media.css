@@ -1,0 +1,125 @@
+@media(max-width: 900px){
+    .films-block{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .films-block .box{
+        max-width: 433px;
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 750px){
+    .collections .block{
+        grid-template-columns: 1fr;
+    }
+
+    .series .text a{
+        margin-top: -60px;
+    }
+
+
+
+    .seriali{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "wanda wanda"
+        "wanda wanda"
+        "flash great"
+        "batman witcher";
+    }
+
+    }
+    
+@media(max-width: 700px){
+        .series .big .text h4{
+            font-size: 20px;
+            margin-top: -30px;
+        }
+        
+        .series .big .text p{
+            padding-top: 10px;
+            font-size: 15px;
+        }
+    }
+        
+@media(max-width: 580px){
+    header .menu nav{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    
+    header .menu nav ul li a{
+        padding: 15px 10px;
+    }
+    
+    header .poster{
+        padding: 10px 0;
+    }
+    
+    header .poster i{
+        font-size: 30px;
+    }
+    
+    header .poster p{
+        font-size: 12px;
+        margin-left: 10px;
+        width: 106px;
+    }
+    
+    header .text h1{
+        font-size: 41px;
+        margin-bottom: 17px;
+        text-align: center;
+    }
+    
+    header .text p{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    header .text .btn{
+        flex-direction: column;
+    }
+    
+    header .text .btn a{
+        margin-bottom: 15px
+    }
+
+    .fon-doctor p{
+        text-align: center;
+    }
+
+    .fon-doctor a{
+        margin: auto;
+    } 
+    
+    
+}
+
+@media(max-width: 480px){
+    .films-block{
+        grid-template-columns: 1fr;
+    }
+    
+    .films-block .box{
+        max-width: none;
+    }
+    
+    .series .big .text p{
+        font-size: 10px;
+        padding-top: 5px;
+    }
+    .series .big .text a{
+        height: 30px;
+    }
+    
+    .series .big .text h4{
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    
+    .seriali .box .box-text i{
+        margin-bottom: 10px;
+    }
+}
